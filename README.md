@@ -30,7 +30,7 @@ npm install gh-pages --save-dev
 
 - At the top of your package.json add the following key-value pair:
 
-"homepage": "https://<your-github-username>.github.io/<name-of-your-github-repo>" - change the value inside the angle bracket
+"homepage": "https://(your-github-username).github.io/(name-of-your-github-repo)" - change the value inside the parenthesis
 
 - Add the following scripts into your package.json:
 
@@ -39,7 +39,7 @@ npm install gh-pages --save-dev
 
 - Go to your vite.config.js file and add a base to your defineConfig object
 
-base: "/<name-of-your-github-repo>/", replace the value inside the angle bracket
+base: "/(name-of-your-github-repo)/", replace the value inside the parenthesis
 
 - If you still haven't made a repo for your project yet, go to your github account and click "New repository"
 
@@ -53,7 +53,7 @@ git add .
 
 git commit -m "first-commit"
 git branch -M main
-git remote add origin https://github.com/<your-github-username>/<name-of-your-github-repo>.git - again replace the value inside the angle bracket
+git remote add origin https://github.com/(your-github-username)/(name-of-your-github-repo).git - again replace the value inside the parenthesis
 git push -u origin main
 
 - After that, you can simply run the following command to deploy your site:
